@@ -1,0 +1,10 @@
+{{> header}}
+
+{{#each response}}
+  <p>{{this.book_isbn}}</p>
+  <p>{{this.book_title}}</p>
+  <p>{{this.book_author}}</p>
+  <hr>
+{{/each}}
+
+{{> footer}}

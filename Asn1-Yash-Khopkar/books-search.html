@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ISBN Search</title>
+  </head>
+  <body>
+    <h1>ISBN Search</h1>
+    <form
+      action="/data/search/isbn/results"
+      method="GET"
+    >
+      <label for="isbn">ISBN:</label>
+      <input
+        type="text"
+        id="isbn"
+        name="isbn"
+        required
+      />
+      <button type="submit">Search</button>
+    </form>
+  </body>
+</html>

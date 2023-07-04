@@ -1,0 +1,32 @@
+{{!-- {{log response}} --}}
+
+{{> header}}
+
+<table border="1">
+  <tr>
+    <th>ISBN</th>
+    <th>Title</th>
+    <th>Author</th>
+    <th>Publisher</th>
+    <th>Publication Year</th>
+    <th>Language</th>
+    <th>Pages</th>
+    <th>Format</th>
+    <th>Price</th>
+  </tr>
+  {{#each response}}
+  <tr {{#if (eq this.pages 0)}} class="zero-pages"{{/if}}>
+    <td>{{this.book_isbn}}</td>
+    <td>{{this.title}}</td>
+    <td>{{this.author}}</td>
+    <td>{{this.publisher}}</td>
+    <td>{{this.publication_year}}</td>
+    <td>{{this.language}}</td>
+    <td>{{displayPages this.pages}}</td>
+    <td>{{this.format}}</td>
+    <td>{{this.price}}</td>
+  </tr>
+  {{/each}}
+</table>
+
+{{> footer}}

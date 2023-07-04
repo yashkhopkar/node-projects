@@ -1,0 +1,31 @@
+{{> header}}
+
+<div class="container">
+  <h1>{{myPet.name}}</h1>
+  <img src='{{myPet.image}}' alt='{{myPet.name}}' />
+  <p>{{myPet.description}}</p>
+</div>
+
+<h1>Title Search</h1>
+<form action='/data/search/title/' method='POST'>
+  <label for='title'>Title:</label>
+  <input type='text' id='title' name='title' required />
+  <button type='submit'>Search</button>
+</form>
+
+<h1>ISBN Search</h1>
+    <form
+      action="/data/search/isbn/results"
+      method="GET"
+    >
+      <label for="isbn">ISBN:</label>
+      <input
+        type="text"
+        id="isbn"
+        name="isbn"
+        required
+      />
+      <button type="submit">Search</button>
+    </form>
+
+{{> footer}}

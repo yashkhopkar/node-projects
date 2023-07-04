@@ -1,0 +1,114 @@
+[
+  {
+    "book_isbn": "1933988673",
+    "title": "Python Testing with pytest",
+    "author": "Brian Okken",
+    "publisher": "Pragmatic Bookshelf",
+    "publication_year": 2017,
+    "language": "English",
+    "pages": 256,
+    "format": "paperback",
+    "price": 29.95
+  },
+  {
+    "book_isbn": "1935182722",
+    "title": "The Art of Agile Development",
+    "author": "James Shore",
+    "publisher": "O'Reilly Media",
+    "publication_year": 2007,
+    "language": "English",
+    "pages": 406,
+    "format": "paperback",
+    "price": 39.99
+  },
+  {
+    "book_isbn": "0131103628",
+    "title": "Refactoring: Improving the Design of Existing Code",
+    "author": "Martin Fowler",
+    "publisher": "Addison-Wesley Professional",
+    "publication_year": 1999,
+    "language": "English",
+    "pages": 431,
+    "format": "hardcover",
+    "price": 59.99
+  },
+  {
+    "book_isbn": "0201633612",
+    "title": "Design Patterns: Elements of Reusable Object-Oriented Software",
+    "author": "Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides",
+    "publisher": "Addison-Wesley Professional",
+    "publication_year": 1994,
+    "language": "English",
+    "pages": 395,
+    "format": "hardcover",
+    "price": 54.99
+  },
+  {
+    "book_isbn": "0201835959",
+    "title": "The Pragmatic Programmer: From Journeyman to Master",
+    "author": "Andrew Hunt, David Thomas",
+    "publisher": "Addison-Wesley Professional",
+    "publication_year": 1999,
+    "language": "English",
+    "pages": 352,
+    "format": "paperback",
+    "price": 49.99
+  },
+  {
+    "book_isbn": "0596007124",
+    "title": "Programming Perl",
+    "author": "Larry Wall, Tom Christiansen, Jon Orwant",
+    "publisher": "O'Reilly Media",
+    "publication_year": 2000,
+    "language": "English",
+    "pages": 1184,
+    "format": "paperback",
+    "price": 59.99
+  },
+  {
+    "book_isbn": "0201485672",
+    "title": "TCP/IP Illustrated, Volume 1: The Protocols",
+    "author": "W. Richard Stevens",
+    "publisher": "Addison-Wesley Professional",
+    "publication_year": 1993,
+    "language": "English",
+    "pages": 600,
+    "format": "hardcover",
+    "price": 69.99
+  },
+  {
+    "book_isbn": "0201633620",
+    "title": "Object-Oriented Software Construction",
+    "author": "Bertrand Meyer",
+    "publisher": "Prentice Hall",
+    "publication_year": 1997,
+    "language": "English",
+    "pages": 1296,
+    "format": "hardcover",
+    "price": 89.99
+  },
+
+  {
+    "book_isbn": "1933988674",
+    "title": "Python Data Structures and Algorithms",
+    "author": "Brian Okken",
+    "publisher": "O'Reilly Media",
+    "publication_year": 2023,
+    "language": "English",
+    "pages": 276,
+    "format": "paperback",
+    "price": 39.95
+  },
+
+  {
+    "book_isbn": "1933988677",
+    "title": "Scala Data Structures and Algorithms",
+    "author": "Jose Okken",
+    "publisher": "O'Reilly Media",
+    "publication_year": 2023,
+    "language": "English",
+    "pages": 0,
+    "format": "paperback",
+    "price": 39.95
+  }
+]
